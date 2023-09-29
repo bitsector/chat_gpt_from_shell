@@ -1,12 +1,17 @@
 # ChatGPT from Shell
 Hack to prompt chatGPT directly from shell
+Currently only tested on Ubuntu
 
-You have to be signed into ChatGPT in your browser.
+1. You have to be signed into ChatGPT in your browser.
 
-Befor running the script git exec permissions:
+2. Install xdotool (For ubuntu users)
+
+sudo apt update && sudo apt install xdotool -y
+
+4. Befor running the script git exec permissions:
 
 sudo chmod +x ask_chatgpt.py
 
-Now run it like this:
+4. Now run it like this:
 
 ./ask_chatgpt.py "How does electricity work?"
